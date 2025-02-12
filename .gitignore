@@ -1,8 +1,9 @@
 .idea
 .gradle
 .kotlin
-/build
-/captures
+build
+captures
+xcuserdata
 
 *.iml
 

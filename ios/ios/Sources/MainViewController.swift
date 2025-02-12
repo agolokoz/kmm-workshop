@@ -1,4 +1,5 @@
 import UIKit
+import common
 
 final class MainViewController: UIViewController {
     
@@ -7,7 +8,7 @@ final class MainViewController: UIViewController {
         view.backgroundColor = .systemBackground
         
         let label = UILabel()
-        label.text = "Hello, world!"
+        label.text = TestKt.getTestString()
         label.translatesAutoresizingMaskIntoConstraints = false
         view.addSubview(label)
         NSLayoutConstraint.activate([
