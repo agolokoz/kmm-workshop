@@ -1,0 +1,16 @@
+.idea
+.gradle
+.kotlin
+/build
+/captures
+
+*.iml
+
+.DS_Store
+.externalNativeBuild
+.cxx
+local.properties
+
+# Xcode
+xcuserdata/
+contents.xcworkspacedata

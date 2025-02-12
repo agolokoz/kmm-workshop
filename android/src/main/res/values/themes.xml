@@ -1,0 +1,4 @@
+<resources>
+    <style name="Base.Theme.Kmmworkshop" parent="Theme.AppCompat.Light.NoActionBar">
+    </style>
+</resources>
