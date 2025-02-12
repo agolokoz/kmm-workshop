@@ -21,6 +21,12 @@ kotlin {
             isStatic = true
         }
     }
+
+    sourceSets {
+        commonMain.dependencies {
+            implementation(libs.kotlin.coroutines.core)
+        }
+    }
 }
 
 android {
